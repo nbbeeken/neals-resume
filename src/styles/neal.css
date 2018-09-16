@@ -1,8 +1,18 @@
 @font-face {
-    font-family: 'FuraCode';
-    src: url('fonts/FuraCode.woff2') format('woff2');
+    font-family: FuraCode;
+    src: url('../fonts/FuraCode.woff') format('woff'),
+         url('../fonts/FuraCode.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+
+@page {
+    size: letter
+}
+
+@media print {
+    height: 11in;
+    width: 8.5in;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,7 +40,7 @@ a {
     text-decoration: none;
 }
 
-.info > a {
+.info {
     display: block;
     line-height: normal;
 }
@@ -50,13 +60,18 @@ a {
     display: inline;
 }
 
+.description {
+    font-size: 11pt;
+}
+
 .date {
     float: right;
     display: inline;
+    font-family: FuraCode;
 }
 
 .verticle-spacer {
-    height: 1cm;
+    height: 0.75cm;
     width: 100%;
 }
 
