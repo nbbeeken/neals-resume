@@ -1,0 +1,14 @@
+
+section.row#Projects
+    h2 Projects
+
+    each project in projects
+        .row
+            .itemName= project.name
+            .itemCaption
+                each icon in project.icons
+                    i.nf(class=icon)
+            .date= project.date
+            .row
+                .two.columns
+                .ten.columns.description= project.description

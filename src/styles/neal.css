@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'FuraCode';
+    src: url('fonts/FuraCode.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0rem;
+}
+
+h1 {
+    font-size: 16pt;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 11pt;
+    color: dimgray;
+    font-weight: 600;
+}
+
+
+a {
+    color: #0b5394;
+    text-decoration: none;
+}
+
+.info > a {
+    display: block;
+    line-height: normal;
+}
+
+.itemName {
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+    font-weight: 600;
+    font-style: italic;
+    display: inline;
+}
+
+.itemCaption {
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+    font-style: italic;
+    display: inline;
+}
+
+.date {
+    float: right;
+    display: inline;
+}
+
+.verticle-spacer {
+    height: 1cm;
+    width: 100%;
+}
+
+.nf {
+    font-size: 1.5em;
+    padding: 0.2cm;
+    color: #0b5394;
+}

@@ -1,0 +1,23 @@
+doctype html
+html(dir='ltr', lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+        title Neal's Resume
+        link(rel='stylesheet', href='styles/normalize.css')
+        link(rel='stylesheet', href='styles/skeleton.css')
+        link(rel='stylesheet', href='styles/nerdfont.css')
+        link(rel='stylesheet', href='styles/paper.css')
+        link(rel='stylesheet', href='styles/neal.css')
+        link(href='https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i', rel='stylesheet')
+    body.A4
+        section.sheet.padding-10mm.container
+
+            include ./sections/header.pug
+            .verticle-spacer
+            include ./sections/education.pug
+            .verticle-spacer
+            include ./sections/experience.pug
+            .verticle-spacer
+            include ./sections/projects.pug

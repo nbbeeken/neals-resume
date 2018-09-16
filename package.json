@@ -1,0 +1,22 @@
+{
+  "name": "neals-resume",
+  "version": "0.0.1",
+  "description": "Neal's Resume",
+  "main": "./src/index.pug",
+  "scripts": {
+    "copyrsrcs": "mkdir -p ./dist && cp -r ./src/styles dist/ && cp -r ./src/fonts dist/",
+    "build": "npm run copyrsrcs && npx pug -O ./src/data/index.js -o ./dist ./src/index.pug",
+    "watch": "npm run copyrsrcs && npx pug -w -O ./src/data/index.js -o ./dist ./src/index.pug"
+  },
+  "keywords": [],
+  "author": "Neal Beeken <nbbeeken@gmail.com>",
+  "license": "None",
+  "repository": "https://github.com/nbbeeken/neals-resume.git",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6",
+    "npx": "^10.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+section.row#Experience
+    h2 Experience
+
+    each experience in experiences
+        .row
+            .itemName= experience.name
+            .itemCaption= experience.caption
+            .date= experience.date
+            .row
+                .two.columns
+                .ten.columns.description= experience.description
