@@ -1,13 +1,14 @@
 
 section.row#Projects
     h2 Projects
-
+    hr
     each project in projects
         .row
             .one.column(style="width: 3%")
                 i.nf(class=project.icon)
             .itemName= project.name
-            span.technologies= '#' + project.technologies.join("  #")
+            each tech in project.technologies
+                span.technologies= '#' + tech
             .three.columns.date= project.date
         .row
             .one.column

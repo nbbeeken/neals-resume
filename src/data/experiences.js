@@ -17,7 +17,7 @@ exports.experiences = [
         date: "Aug 2017-May 2018",
         description: `
             Repaired and maintained existing campus bus and shuttle tracking Android app in Java.
-            Subsequently performed a ground-up rework of the Android app in Kotlin,
+            Subsequently performed a ground up rework of the Android app in Kotlin,
             reducing app size and improving performance while upgrading the UI/UX.
         `.trim()
     },
@@ -28,8 +28,8 @@ exports.experiences = [
         date: "Jan 2016-May 2017",
         description: `
             Participated in assignment development for system-level C programming course.
-            Created Python scripts to compile and run students submissions for grading.
-            Held office hours teaching students and providing help debugging through discussion.
+            Created robust Python scripts to compile and run students submissions for grading.
+            Held office hours teaching students and providing help with debugging through discussion.
         `.trim()
     },
 ];

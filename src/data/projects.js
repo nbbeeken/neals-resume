@@ -14,8 +14,8 @@ exports.projects = [
         date: "Jun 2018-Current",
         technologies: ["python", "regex", "mips"],
         description: `
-            CLI python package to simulate a MIPS program by interpreting asm text.
-            Future plans for vscode extention to enable debugging and visualization.
+            CLI python package to simulate a MIPS program by interpreting assembly text.
+            Future plans for vscode extension to enable debugging and visualization.
         `.trim()
     },
     {
@@ -35,9 +35,14 @@ exports.projects = [
         date: "Aug 2017-Dec 2017",
         technologies: ["c", "x86", "shell", "memory allocator", "ahci", "qemu"],
         description: `
-            An original operating system in C: Context switching,
-            Virtual Memory management, COW fork, Userspace processes,
-            Runs on real hardware (and qemu).
+            An original operating system in C targeting the x86 platform.
+            Features include:
+            context switching,
+            harddrive AHCI driver
+            virtual memory management,
+            COW fork,
+            and userspace processes.
+            Tested and run on real hardware and qemu.
         `.trim()
     },
     {
@@ -69,9 +74,10 @@ exports.projects = [
         date: "Jan 2016-May 2016",
         technologies: ["angularjs", "java", "HTML5 Canvas", "PAAS"],
         description: `
-            Web-app in AngularJS and Java utilizing PAAS deployment: Saved user
-            content generated on HTML5 Canvas and Published user content
-            to landing page.
+            Web app in AngularJS and Java utilizing PAAS deployment:
+            Saved user generated content from HTML5 Canvas.
+            Published canvas contents to landing page and
+            enabled users to modify saved work.
         `.trim()
     },
     {
