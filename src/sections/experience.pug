@@ -4,7 +4,8 @@ section.row#Experience
     each experience in experiences
         .row
             .one.column
-            .eight.colimns.itemName= experience.name
+            .itemName= experience.name
+            span= experience.company
             .three.columns.date= experience.date
         .row
             .one.column

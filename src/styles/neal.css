@@ -52,7 +52,7 @@ a {
 .itemName {
     margin-left: 0;
     padding-right: 0.2cm;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
     display: inline;
 }
@@ -71,16 +71,33 @@ a {
 .date {
     float: right;
     display: inline;
-    font-family: FuraCode;
-    letter-spacing: -0.7px;
+    /* font-family: FuraCode; */
+    /* letter-spacing: -0.7px; */
+    text-align: right;
 }
 
 .verticle-spacer {
-    height: 0.75cm;
+    height: 0.30cm;
+    width: 100%;
+}
+
+.verticle-spacer-top {
+    height: 0.20cm;
     width: 100%;
 }
 
 .nf {
     font-size: 1.2em;
     color: #0b5394;
+}
+
+.technologies {
+    font-size: 0.7em;
+    color: #0b5394;
+    font-weight: 300;
+}
+
+code {
+    background-color: transparent;
+    border-color: transparent;
 }

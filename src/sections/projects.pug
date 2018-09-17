@@ -6,7 +6,8 @@ section.row#Projects
         .row
             .one.column(style="width: 3%")
                 i.nf(class=project.icon)
-            .eight.columns.itemName= project.name
+            .itemName= project.name
+            span.technologies= '#' + project.technologies.join("  #")
             .three.columns.date= project.date
         .row
             .one.column
