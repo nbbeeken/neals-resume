@@ -11,7 +11,7 @@ exports.projects = [
     {
         name: `"Dashmips" — MIPS Assembly simulator`,
         icon: "nf-seti-python",
-        date: "Jun 2018-Current",
+        date: "Jun '18-Current",
         technologies: ["python", "regex", "mips"],
         description: `
             CLI python package to simulate a MIPS program by interpreting assembly text.
@@ -21,7 +21,7 @@ exports.projects = [
     {
         name: `"DASH" — Automated Interactive Course Orchestration`,
         icon: "nf-dev-git",
-        date: "Aug 2017-Apr 2018",
+        date: "Aug '17-Apr '18",
         technologies: ["python", "gitlab", "git"],
         description: `
             An interactive tool to assist in setting up a private gitlab
@@ -32,23 +32,23 @@ exports.projects = [
     {
         name: `"Moon OS" — Operating System`,
         icon: "nf-custom-c",
-        date: "Aug 2017-Dec 2017",
-        technologies: ["c", "x86", "shell", "memory allocator", "ahci", "qemu"],
+        date: "Aug '17-Dec '17",
+        technologies: ["c", "x86_64", "shell", "memory allocator", "ahci", "qemu"],
         description: `
-            An original operating system in C targeting the x86 platform.
+            A 64-bit operating system in C targeting the x86_64 platform.
             Features include:
             context switching,
             harddrive AHCI driver
             virtual memory management,
             COW fork,
             and userspace processes.
-            Tested and run on real hardware and qemu.
+            Tested on qemu and real hardware.
         `.trim()
     },
     {
         name: `"Glitter" — Full Stack Social Networking Web App`,
         icon: "nf-mdi-nodejs", //"nf-dev-javascript_badge", //"nf-seti-javascript",
-        date: "Jan 2017-May 2017",
+        date: "Jan '17-May '17",
         technologies: ["nodejs", "ansible", "mongodb", "IAAS"],
         description: `
             A NodeJS Web Server utilizing IAAS deployment:
@@ -60,7 +60,7 @@ exports.projects = [
     {
         name: `"Wolfie Script" — Original Scripting Language`,
         icon: "nf-seti-python",
-        date: "May 2016-Aug 2016",
+        date: "May '16-Aug '16",
         technologies: ["python", "ply", "AST"],
         description: `
             Implemented Abstract Syntax Tree in Python PLY library:
@@ -71,7 +71,7 @@ exports.projects = [
     {
         name: `"Atomic Comics" — Comic Creation tool`,
         icon: "nf-dev-angular",
-        date: "Jan 2016-May 2016",
+        date: "Jan '16-May '16",
         technologies: ["angularjs", "java", "HTML5 Canvas", "PAAS"],
         description: `
             Web app in AngularJS and Java utilizing PAAS deployment:
@@ -83,13 +83,13 @@ exports.projects = [
     {
         name: `"WolfieBall" — Java Fantasy Baseball`,
         icon: "nf-fae-java",
-        date: "Jan 2015-May 2015",
+        date: "Jan '15-May '15",
         technologies: ["java", "javafx", "JSON", "multithreading"],
         description: `
             Java Desktop App: Loaded MLB JSON data,
             assisted in constructing fantasy teams,
             used multithreading to auto populate teams,
-            helped professor win his MLB Fantasy League (Apr 17).
+            helped professor win his MLB Fantasy League (Apr '17).
         `.trim()
     },
 ];

@@ -3,7 +3,7 @@ exports.experiences = [
         name: `Graduate Teaching Assistant`,
         company: "Stony Brook University",
         icon: "nf-fa-graduation_cap",
-        date: "Aug 2017-May 2018",
+        date: "Aug '17-May '18",
         description: `
             Assisted in material creation for coursework.
             Trained and led a team of TAs in homework design.
@@ -14,7 +14,7 @@ exports.experiences = [
         name: `Android Developer`,
         company: "Smart Transit at CEWIT",
         icon: "nf-dev-android",
-        date: "Aug 2017-May 2018",
+        date: "Aug '17-May '18",
         description: `
             Repaired and maintained existing campus bus and shuttle tracking Android app in Java.
             Subsequently performed a ground up rework of the Android app in Kotlin,
@@ -25,10 +25,10 @@ exports.experiences = [
         name: `Undergraduate Teaching Assistant`,
         company: "Stony Brook University",
         icon: "nf-fa-graduation_cap",
-        date: "Jan 2016-May 2017",
+        date: "Jan '16-May '17",
         description: `
             Participated in assignment development for system-level C programming course.
-            Created robust Python scripts to compile and run students submissions for grading.
+            Created robust Python scripts to compile and run student submissions for grading.
             Held office hours teaching students and providing help with debugging through discussion.
         `.trim()
     },
