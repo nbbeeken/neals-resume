@@ -15,6 +15,10 @@
     width: 8.5in;
 }
 
+body {
+    font-family: Nunito
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0rem;
 }
@@ -46,7 +50,7 @@ a {
 }
 
 .itemName {
-    padding-left: 0.2cm;
+    margin-left: 0;
     padding-right: 0.2cm;
     font-weight: 600;
     font-style: italic;
@@ -68,6 +72,7 @@ a {
     float: right;
     display: inline;
     font-family: FuraCode;
+    letter-spacing: -0.7px;
 }
 
 .verticle-spacer {
@@ -76,7 +81,6 @@ a {
 }
 
 .nf {
-    font-size: 1.5em;
-    padding: 0.2cm;
+    font-size: 1.2em;
     color: #0b5394;
 }

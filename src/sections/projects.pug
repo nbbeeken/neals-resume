@@ -4,11 +4,10 @@ section.row#Projects
 
     each project in projects
         .row
-            .itemName= project.name
-            .itemCaption
-                each icon in project.icons
-                    i.nf(class=icon)
-            .date= project.date
-            .row
-                .two.columns
-                .ten.columns.description= project.description
+            .one.column(style="width: 3%")
+                i.nf(class=project.icon)
+            .eight.columns.itemName= project.name
+            .three.columns.date= project.date
+        .row
+            .one.column
+            .eleven.columns.description= project.description

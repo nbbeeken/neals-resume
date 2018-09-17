@@ -1,8 +1,8 @@
 exports.experiences = [
     {
         name: `Graduate Teaching Assistant`,
-        caption: "",
-        date: "Aug'17 -> May'18",
+        icon: "nf-fa-graduation_cap",
+        date: "Aug 17 - May 18",
         description: `
             Created original homeworks
             relating to UDP music streaming and P2P protocols
@@ -10,8 +10,8 @@ exports.experiences = [
     },
     {
         name: `SBU Smart Transit Android Developer`,
-        caption: "",
-        date: "Aug'17 -> May'18",
+        icon: "nf-dev-android",
+        date: "Aug 17 - May 18",
         description: `
             Repaired and maintained existing campus bus/shuttle tracking Java Android app
             Ground-up rework of Android app in Kotlin, reducing app size and improving performance
@@ -19,8 +19,8 @@ exports.experiences = [
     },
     {
         name: `Undergraduate Teaching Assistant`,
-        caption: "",
-        date: "Jan'16 -> May'17",
+        icon: "nf-fa-graduation_cap",
+        date: "Jan 16 - May 17",
         description: `
             Participated in assignment development for system-level C
             programming course. Created Python scripts  to compile
