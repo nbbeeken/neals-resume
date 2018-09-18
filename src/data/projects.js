@@ -26,7 +26,7 @@ exports.projects = [
         date: "Aug '17 - Apr '18",
         technologies: ["python", "gitlab", "git"],
         description: `
-            An interactive tool to assist deploying a private gitlab
+            Interactive tool to assist deploying a private gitlab
             instance for the purpose of source submission along with assignment
             distribution.
         `.trim()
@@ -37,7 +37,7 @@ exports.projects = [
         date: "Aug '17 - Dec '17",
         technologies: ["c", "x86_64", "shell", "memory allocator", "ahci", "qemu"],
         description: `
-            A 64-bit operating system in C targeting the x86_64 platform.
+            64-bit operating system in C targeting the x86_64 platform.
             Features include:
             context switching,
             AHCI driver
@@ -53,7 +53,7 @@ exports.projects = [
         date: "Jan '17 - May '17",
         technologies: ["nodejs", "ansible", "mongodb", "IAAS"],
         description: `
-            A RESTful social networking service written in NodeJS.
+            RESTful social networking service written in NodeJS.
             The service was deployed to a private cloud using Ansible.
             and scaled to respond to millions of client requests
             using multi-process clustering and a sharded MongoDB database.
@@ -65,7 +65,7 @@ exports.projects = [
         date: "May '16 - Aug '16",
         technologies: ["python", "ply", "AST"],
         description: `
-            An original scripting language implemented
+            Original scripting language implemented
             using the Python PLY (yacc/lex) library with support for:
             duck type variables, shallow scoping, if/else statements,
             while loops.
@@ -90,7 +90,7 @@ exports.projects = [
         date: "Jan '15 - May '15",
         technologies: ["java", "JSON", "multithreading"],
         description: `
-            A desktop application written in Java and JavaFX
+            Desktop application written in Java and JavaFX
             that allowed users to load saved MLB JSON data,
             construct fantasy baseball teams manually and
             auto-generate teams in a separate thread.
