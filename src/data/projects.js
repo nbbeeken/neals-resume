@@ -14,7 +14,7 @@ exports.projects = [
         date: "Jun '18 - Current",
         technologies: ["python", "regex", "mips"],
         description: `
-            Command line python package to simulate a
+            Command line Python package to simulate a
             MIPS program by interpreting assembly text.
             Future plans for an editor extension that
             enables MIPS debugging and visualization.
@@ -38,13 +38,13 @@ exports.projects = [
         technologies: ["c", "x86_64", "shell", "memory allocator", "ahci", "qemu"],
         description: `
             64-bit operating system in C targeting the x86_64 platform.
-            Features include:
+            Features include
             context switching,
             AHCI driver
             virtual memory management,
             copy-on-write fork,
             and userspace processes.
-            Tested on real hardware.
+            Tested on hardware.
         `.trim()
     },
     {
@@ -54,7 +54,7 @@ exports.projects = [
         technologies: ["nodejs", "ansible", "mongodb", "IAAS"],
         description: `
             RESTful social networking service written in NodeJS.
-            The service was deployed to a private cloud using Ansible.
+            The service was deployed to a private cloud using Ansible
             and scaled to respond to millions of client requests
             using multi-process clustering and a sharded MongoDB database.
         `.trim()
@@ -77,8 +77,8 @@ exports.projects = [
         date: "Jan '16 - May '16",
         technologies: ["angularjs", "java", "HTML5 Canvas", "PAAS"],
         description: `
-            AngularJS and Java web app deployed to PAAS environment:
-            Features included
+            AngularJS and Java web app deployed to PAAS environment.
+            Features include
             saving user-generated content from HTML5 Canvas,
             publishing canvas contents to the landing page, and
             enabling users to modify saved work.
@@ -92,7 +92,7 @@ exports.projects = [
         description: `
             Desktop application written in Java and JavaFX
             that allowed users to load saved MLB JSON data,
-            construct fantasy baseball teams manually and
+            construct fantasy baseball teams manually, and
             auto-generate teams in a separate thread.
             Two years later helped professor win his MLB Fantasy League
             (Apr '17).

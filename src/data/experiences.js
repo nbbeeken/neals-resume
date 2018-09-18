@@ -20,7 +20,7 @@ exports.experiences = [
         description: `
             Repaired and maintained existing campus bus and shuttle tracking Android app in Java.
             Recreated the Android app in Kotlin, reducing app size by 50% and
-            improving network performance and UI responsiveness.
+            improving network performance, user experience, and user interface responsiveness.
         `.trim()
     },
     {
