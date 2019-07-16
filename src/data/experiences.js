@@ -1,5 +1,17 @@
 exports.experiences = [
     {
+        name: `Software Engineer Intern`,
+        company: `MongoDB`,
+        icon: `fa-leaf`,
+        date: `May '19 - Aug '19`,
+        description: `
+            Integrated member of the Cloud Monitoring team
+            assisting corporate clients in managing onsite or MongoDB Atlas
+            deployments. Worked on collecting, persisting, and displaying
+            database accesses for client compliance requirements.
+        `.trim()
+    },
+    {
         name: `Graduate Teaching Assistant`,
         company: "Stony Brook University",
         icon: "nf-fa-graduation_cap",
@@ -9,7 +21,7 @@ exports.experiences = [
             and regression unit tests for students.
             Led a team of Teaching Assistants by supervising the development of
             homework assignments.
-            Wrote automated grading tools for coding assignments.
+            Created robust Python scripts to automate testing of student submissions for grading.
         `.trim()
     },
     {
@@ -23,15 +35,15 @@ exports.experiences = [
             improving network performance, user experience, and user interface responsiveness.
         `.trim()
     },
-    {
-        name: `Undergraduate Teaching Assistant`,
-        company: "Stony Brook University",
-        icon: "nf-fa-graduation_cap",
-        date: "Jan '16 - May '17",
-        description: `
-            Participated in assignment development for system-level C programming course.
-            Created robust Python scripts to automate testing of student submissions for grading.
-            Held office hours teaching students and providing help with debugging through discussion.
-        `.trim()
-    },
+    // {
+    //     name: `Undergraduate Teaching Assistant`,
+    //     company: "Stony Brook University",
+    //     icon: "nf-fa-graduation_cap",
+    //     date: "Jan '16 - May '17",
+    //     description: `
+    //         Participated in assignment development for system-level C programming course.
+    //         Created robust Python scripts to automate testing of student submissions for grading.
+    //         Held office hours teaching students and providing help with debugging through discussion.
+    //     `.trim()
+    // },
 ];
