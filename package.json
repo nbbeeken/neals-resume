@@ -13,11 +13,10 @@
   "license": "ISC",
   "repository": "https://github.com/nbbeeken/neals-resume.git",
   "devDependencies": {
-    "@types/node": "^12.6.2",
-    "@types/puppeteer": "^1.12.4",
-    "npx": "^10.2.0",
+    "@types/node": "^13.9.5",
+    "@types/puppeteer": "^2.0.1",
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6",
-    "puppeteer": "^1.18.1"
+    "puppeteer": "^2.1.1"
   }
 }
